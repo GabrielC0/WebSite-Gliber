@@ -1,0 +1,16 @@
+
+@media screen and (max-width : 1212px){
+    .IMG{
+        width: 320%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 7px;
+    }
+}
+
+.Global_IMG img{
+    width: 30%;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-radius: 5%;
+}

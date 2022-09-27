@@ -1,0 +1,33 @@
+
+@media screen and (max-width : 1212px){
+    .Nvb-nd button{
+        width: 90%;
+    }
+
+    .content{
+        width: 300%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+.Global_Realisations{
+    margin-top: 30px;
+}
+
+.content video{
+    width: 30%;
+    margin-top: 35px;
+    margin-right: 40px;
+    border-radius: 5%;
+}
+.Btn-Réa{
+    border-radius: 20px;
+    border-color: aliceblue;
+    width: 150px;
+    height: 40px;
+}
+

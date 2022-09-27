@@ -1,0 +1,127 @@
+@media screen and (max-width: 1212px) {
+  .Top-div,
+  .Bottom-div {
+    width: 150%;
+    margin-left: 9px;
+    align-items: center;
+    display: flex;
+  }
+
+  .Nvb-nd button {
+    width: 30%;
+  }
+
+  .Nvb-nd .Btn-middle-1 {
+    left: 10%;
+    top: 42%;
+    width: 25%;
+    opacity: 70%;
+  }
+
+  .Nvb-nd .Btn-middle-2 {
+    left: 62%;
+    top: 42%;
+    width: 25%;
+    opacity: 70%;
+  }
+
+  .Nvb-nd .Btn-middle-3 {
+    left: 10%;
+    top: 57.5%;
+    width: 25%;
+    opacity: 85%;
+  }
+
+  .Nvb-nd .Btn-middle-4 {
+    left: 62%;
+    top: 57.5%;
+    width: 25%;
+    opacity: 75%;
+  }
+}
+
+.Top-div img {
+  margin-top: 60px;
+}
+.Bottom-div img {
+  margin-top: 30px;
+}
+.Global-middle img {
+  width: 30%;
+  border-radius: 25%;
+  margin-right: 20px;
+}
+.Btn-middle-1 {
+  border-radius: 20px;
+  border-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  right: 59%;
+  width: 270px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 75%;
+  background: grey;
+}
+.Btn-middle-2 {
+  border-radius: 20px;
+  border-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  right: 28%;
+  width: 270px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 75%;
+  background: grey;
+}
+.Btn-middle-3 {
+  border-radius: 20px;
+  border-color: aliceblue;
+
+  position: absolute;
+  top: 89%;
+  right: 59%;
+  width: 270px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 75%;
+  background: grey;
+}
+.Btn-middle-4 {
+  border-radius: 20px;
+  border-color: aliceblue;
+  position: absolute;
+  top: 89%;
+  right: 28%;
+  width: 270px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 75%;
+  background: grey;
+}
+.Btn-middle-1:hover,
+.Btn-middle-2:hover,
+.Btn-middle-3:hover,
+.Btn-middle-4:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+/* .Top-div-video-1 video{
+    width: 32%;
+    border-radius:  25%;
+    margin-right: 20px;
+    position: absolute; 
+    top: 20%;
+    right: 50%;
+    opacity: 0%;
+} */

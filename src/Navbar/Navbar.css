@@ -1,0 +1,44 @@
+@media screen and (max-width : 1212px){
+    .Nvb{   
+        flex-direction: column;
+        height: 200px;
+        margin-top: -12px;
+        background-image:url("Logo-BG.png");       
+    }
+
+    .Logo{
+        display: none;
+    }
+
+}
+
+.Header{
+    background: #E0E0E0;
+    width: 75%;
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.Nvb{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding-top:35px;
+    padding-bottom:15px ;
+
+}
+
+.Btn:hover{
+    background-color: #6773c5;
+}
+
+.Btn{
+    border-radius: 20px;
+    border-color: aliceblue;
+    width:270px; 
+    height:40px; 
+    opacity: 75%;
+    background: grey;
+}
