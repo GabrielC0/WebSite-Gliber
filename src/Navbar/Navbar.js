@@ -14,7 +14,7 @@ export default function Navbar() {
         <Link to={"/Contact"}>
           <button className="Btn">Contact</button>
         </Link>
-        <Link to={"/QuiSommesNous"}>
+        <Link to={"/QuiSuisJe"}>
           <button className="Btn">Qui suis-je ?</button>
         </Link>
         <Link to={"/NosPrestations"}>

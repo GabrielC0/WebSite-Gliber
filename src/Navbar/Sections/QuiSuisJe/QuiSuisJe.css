@@ -1,0 +1,37 @@
+img {
+  width: 35%;
+}
+.IMG1,
+.IMG2 {
+  margin-top: 40px;
+  margin: 2%;
+}
+.IMG3 {
+  float: left;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.Middle p {
+  width: 50%;
+  font-size: 25px;
+  color: #ffffff;
+  font-family: system-ui;
+  margin-left: 5%;
+}
+.Galerie {
+  margin: 2%;
+  justify-content: center;
+}
+.VIDE {
+  height: 100px;
+}
+.Content {
+  margin-top: 5%;
+}
+.Middle p,
+.Middle {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}

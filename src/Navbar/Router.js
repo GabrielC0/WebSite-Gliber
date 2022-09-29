@@ -4,7 +4,7 @@ import Middle from "../Middle/Middle";
 import { Routes, Route } from "react-router-dom";
 
 import Contact from "./Sections/Contact/Contact";
-import QuiSommesNous from "./Sections/QuiSommesNous/Qui-Sommes-Nous";
+import QuiSuisJe from "./Sections/QuiSuisJe/QuiSuisJe";
 import NosPrestations from "./Sections/Prestations/Nos-Prestations";
 import Realisations from "./Sections/Realisations/Realisations";
 
@@ -25,7 +25,7 @@ function Router() {
       <Routes>
         <Route path="/" element={<Middle />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/QuiSommesNous" element={<QuiSommesNous />} />
+        <Route path="/QuiSuisJe" element={<QuiSuisJe />} />
 
         <Route path="/NosPrestations" element={<NosPrestations />}>
           <Route path="/NosPrestations/Conseils" element={<Conseils />} />
