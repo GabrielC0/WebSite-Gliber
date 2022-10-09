@@ -1,0 +1,88 @@
+@media screen and (max-width: 1212px) {
+  .Contents-Img img {
+    display: none;
+  }
+  .Nvb-nd button {
+    height: 70px;
+    width: 150px;
+  }
+
+  .Desc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Desc img {
+    width: 80%;
+    height: 80%;
+    margin-left: 35px;
+  }
+
+  .Txt {
+    margin: 20px;
+    text-align: left;
+  }
+}
+
+.Nd-Menu {
+  width: 92%;
+  margin-left: 4%;
+  justify-content: space-between;
+}
+.Logo {
+  width: 180px;
+  height: 110px;
+}
+
+.Nvb {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Nvb-nd {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 25px;
+}
+
+.Btn {
+  border-radius: 20px;
+  border-color: aliceblue;
+  width: 150px;
+  height: 40px;
+}
+
+.Btn-nd1,
+.Btn-nd2,
+.Btn-nd3,
+.Btn-nd4 {
+  border-radius: 20px;
+  border-color: aliceblue;
+  width: 150px;
+  height: 40px;
+}
+
+.Btn-nd2,
+.Btn-nd3 {
+  margin-left: -15px;
+}
+
+.Btn-nd4 {
+  margin-right: 40px;
+}
+
+.Txt {
+  font-size: 10px;
+  color: #000000;
+  margin-top: 55px;
+  font-family: system-ui;
+}
+
+.Img {
+  border-radius: 50px;
+  width: 22%;
+  margin-right: 50px;
+}

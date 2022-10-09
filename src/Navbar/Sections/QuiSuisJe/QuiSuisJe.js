@@ -27,14 +27,14 @@ function QuiSuisJe() {
         <img className="IMG3" src={img3} />
         <p>
           Je m'appelle Gabriel CHANGRENIER et mon expertise concerne le
-          pilotages de drones, les prises de vues aériennes, mais aussi la
+          pilotages de drones, les prises de vues aériennes, mais aussi là
           conception d'application. Je suis en effet étudiant à Efrei PARIS,
-          l'une des meuilleurs école d'ingenieur spécialisé dans le numérique.
-          Je suis donc actuellement étudiant en 2e années de Bachelor INGENIERIE
-          et je souhaite par la suite obtenir un Master DEVELOPPEUR MANAGER
-          FULL-STACK DU NUMERIQUE. J'ai deux passions : la programation et les
-          drones, je serai ravis de pouvoir discuter avec vous sur ses sujets ;)
-          .
+          l'une des meilleures écoles d'ingénieurs spécialisée dans le
+          numérique. Je suis donc actuellement étudiant en 2e année de bachelier
+          INGENIERIE et je souhaite par la suite obtenir un master DEVELOPPEUR
+          MANAGER FULL-STACK DU NUMERIQUE. J'ai deux passions : la programmation
+          et les drones, je serai ravi de pouvoir discuter avec vous sur ses
+          sujets ;) .
         </p>
       </div>
 
@@ -47,7 +47,6 @@ function QuiSuisJe() {
           <img className="Galerie" src={img5} />
           <img className="Galerie" src={img6} />
           <img className="Galerie" src={img7} />
-          
         </div>
       </div>
     </div>

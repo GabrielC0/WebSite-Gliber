@@ -11,17 +11,17 @@ export default function Navbar() {
         <Link to={"/"}>
           <button className="Btn">Accueil</button>
         </Link>
-        <Link to={"/Contact"}>
-          <button className="Btn">Contact</button>
+        <Link to={"/Prestations"}>
+          <button className="Btn">Mes préstations</button>
+        </Link>
+        <Link to={"/Realisations"}>
+          <button className="Btn">Mes réalisations</button>
         </Link>
         <Link to={"/QuiSuisJe"}>
           <button className="Btn">Qui suis-je ?</button>
         </Link>
-        <Link to={"/NosPrestations"}>
-          <button className="Btn">Mes Préstations</button>
-        </Link>
-        <Link to={"/Realisations"}>
-          <button className="Btn">MesRealisations</button>
+        <Link to={"/Contact"}>
+          <button className="Btn">Contact</button>
         </Link>
       </nav>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import IMG2 from "../Prestations/IMG/PH2.png";
 
-import "./NosPrestations.css";
+import "./MesPrestations.css";
 
 function Inspections(){
     return(

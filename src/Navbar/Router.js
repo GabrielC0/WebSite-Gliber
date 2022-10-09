@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Contact from "./Sections/Contact/Contact";
 import QuiSuisJe from "./Sections/QuiSuisJe/QuiSuisJe";
-import NosPrestations from "./Sections/Prestations/Nos-Prestations";
+import MesPrestations from "./Sections/Prestations/Mes-Prestations";
 import Realisations from "./Sections/Realisations/Realisations";
 
 import PrisesDeVues from "./Sections/Prestations/PrisesDeVues";
@@ -27,14 +27,11 @@ function Router() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/QuiSuisJe" element={<QuiSuisJe />} />
 
-        <Route path="/NosPrestations" element={<NosPrestations />}>
-          <Route path="/NosPrestations/Conseils" element={<Conseils />} />
-          <Route path="/NosPrestations/Inspections" element={<Inspections />} />
-          <Route
-            path="/NosPrestations/PrisesDeVues"
-            element={<PrisesDeVues />}
-          />
-          <Route path="/NosPrestations/Stage" element={<Stage />} />
+        <Route path="/Prestations" element={<MesPrestations />}>
+          <Route path="/Prestations/Conseils" element={<Conseils />} />
+          <Route path="/Prestations/Inspections" element={<Inspections />} />
+          <Route path="/Prestations/PrisesDeVues" element={<PrisesDeVues />} />
+          <Route path="/Prestations/Stage" element={<Stage />} />
         </Route>
 
         <Route path="/Realisations" element={<Realisations />}>

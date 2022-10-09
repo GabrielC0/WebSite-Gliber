@@ -1,9 +1,35 @@
 import React from "react";
-import "./Contact.css";
-import ContactF from "./ContactFormulaire";
+import { useForm } from "react-hook-form";
+import "./Formulaire.css";
 
 function Contact() {
-  return <ContactF />;
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+  console.log(errors);
+
+  return (
+    <div className="body">
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <input
+          type="text"
+          placeholder="Nom Prenom"
+          {...register("Nom Prenom", {})}
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          {...register("Email", { required: true })}
+        />
+        <input type="text" placeholder="Message" {...register("Message", {})} />
+
+        <input type="submit" />
+      </form>
+    </div>
+  );
 }
 
 export default Contact;
