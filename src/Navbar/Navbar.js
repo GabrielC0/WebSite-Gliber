@@ -1,6 +1,6 @@
 import { React } from "react";
 import "./Navbar.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link} from "react-router-dom";
 import Logo from "./Logo-BG.png";
 
 export default function Navbar() {
