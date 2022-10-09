@@ -10,5 +10,6 @@ function App() {
 }
 
 export default App;
+// git add *
 // git commit -m "update"
 // git push
