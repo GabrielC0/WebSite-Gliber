@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Middle from "../Middle/Middle";
+import React, { Component } from 'react'
 
 import { Routes, Route } from "react-router-dom";
 
