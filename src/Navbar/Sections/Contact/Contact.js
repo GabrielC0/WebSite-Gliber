@@ -1,10 +1,9 @@
-// import React, { Component } from 'react'
-// import ContactForm from "./Pages/ContactForm";
+import React, { Component } from "react";
 
-// export default function Contact() {
-//   return (
-//     <div>
-//       <ContactForm />
-//     </div>
-//   );
-// }
+export default function Contact() {
+  return (
+    <div>
+      <h2>yo</h2>
+    </div>
+  );
+}
