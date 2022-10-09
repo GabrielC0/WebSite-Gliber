@@ -3,7 +3,7 @@ import Middle from "../Middle/Middle";
 
 import { Routes, Route } from "react-router-dom";
 
-import Contact from "./Sections/Contact/Contact";
+import Contact from "./Sections/Contact/contact";
 import QuiSuisJe from "./Sections/QuiSuisJe/QuiSuisJe";
 import MesPrestations from "./Sections/Prestations/Mes-Prestations";
 import Realisations from "./Sections/Realisations/Realisations";
