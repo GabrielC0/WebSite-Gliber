@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 import { Routes, Route } from "react-router-dom";
 
-import Contact from "./Sections/Contact/contact";
+import Contact from "./Sections/Contact/Contact";
 import QuiSuisJe from "./Sections/QuiSuisJe/QuiSuisJe";
 import MesPrestations from "./Sections/Prestations/Mes-Prestations";
 import Realisations from "./Sections/Realisations/Realisations";
