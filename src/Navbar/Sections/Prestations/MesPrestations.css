@@ -2,9 +2,17 @@
   .Contents-Img img {
     display: none;
   }
-  .Nvb-nd button {
-    height: 70px;
-    width: 150px;
+  .Nvb-nd .Btn-nd1,
+  .Nvb-nd .Btn-nd2,
+  .Nvb-nd .Btn-nd3 {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+  }
+  .Nvb-nd .Btn-nd4 {
+    width: 75px;
+    height: 75px;
+    margin-left: -15px;
   }
 
   .Desc {

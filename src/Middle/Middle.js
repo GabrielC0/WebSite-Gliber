@@ -12,13 +12,13 @@ function Middle() {
     <div className="Global-middle">
       <nav className="Nvb-nd">
         <Link to={"/Realisations/PrisesDeVues_IMG"}>
-          <button className="Btn-middle-1">Prises De Vues</button>
+          <button className="Btn-middle-1">Prises de vues</button>
         </Link>
         <Link to={"/Realisations/Inspection_IMG"}>
           <button className="Btn-middle-2">Inspections</button>
         </Link>
         <Link to={"/Realisations/Conseils_IMG"}>
-          <button className="Btn-middle-3">Guide d'achat de Drone</button>
+          <button className="Btn-middle-3">Guide d'achat de drone</button>
         </Link>
         <Link to={"/Realisations/Stage_IMG"}>
           <button className="Btn-middle-4">Stage</button>
