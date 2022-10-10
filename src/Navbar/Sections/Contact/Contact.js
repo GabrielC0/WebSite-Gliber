@@ -13,12 +13,10 @@ export default function Contact() {
         <label htmlFor="email">Email</label> <br />
         <input type="email" id="email" name="email" required />
       </div>
-
       <div>
         <label htmlFor="message">Message</label> <br />
         <textarea id="message" name="message" required></textarea>
       </div>
-
       <div>
         <input type="submit" value="Submit message" />
       </div>
