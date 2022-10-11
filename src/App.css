@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: auto;
 }
 
 .App-logo {
@@ -10,10 +11,7 @@
 
 body {
   background: #1e2449;
-  /* background-image: url(./Contents/Logo.png); */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+
 }
 
 .App-header {
@@ -60,21 +58,17 @@ body {
   bottom: 0;
 }
 /* CSS LINK  */
-@media screen and (max-width : 1212px){
-    
-  form{
-      flex-direction: column;
-      align-items: center;
-      width: 90%;
-      margin-left: 5%;
+@media screen and (max-width: 1212px) {
+  form {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
   }
-
-
 }
-.body{
+.body {
   margin-top: 50px;
 }
-
 
 h1 {
   font-weight: 100;
@@ -98,4 +92,3 @@ pre {
 hr {
   margin-top: 30px;
 }
-

@@ -2,15 +2,12 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./Middle.css";
 
-import img1 from "./Pictures/PH1.JPG";
-import img2 from "./Pictures/PH2.png";
-import img3 from "./Pictures/PH3.png";
-import img4 from "./Pictures/PH4.png";
+import Slider from "./Slider/Slider";
 
 function Middle() {
   return (
     <div className="Global-middle">
-      <nav className="Nvb-nd">
+      {/* <nav className="Nvb-nd">
         <Link to={"/Realisations/PrisesDeVues_IMG"}>
           <button className="Btn-middle-1">Prises de vues</button>
         </Link>
@@ -33,7 +30,9 @@ function Middle() {
       <div className="Bottom-div">
         <img src={img3} />
         <img src={img4} />
-      </div>
+      </div> */}
+
+      <Slider />
     </div>
   );
 }

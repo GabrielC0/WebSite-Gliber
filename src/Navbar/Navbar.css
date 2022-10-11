@@ -1,44 +1,44 @@
-@media screen and (max-width : 1212px){
-    .Nvb{   
-        flex-direction: column;
-        height: 200px;
-        margin-top: -12px;
-        background-image:url("Logo-BG.png");       
-    }
+@media screen and (max-width: 1212px) {
+  .Nvb {
+    flex-direction: column;
+    height: 200px;
+    margin-top: -12px;
+    background-image: url("Logo-BG.png");
+  }
 
-    .Logo{
-        display: none;
-    }
-
+  .Logo {
+    display: none;
+  }
 }
 
-.Header{
-    background: #E0E0E0;
-    width: 75%;
-    margin-left: 12%;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
 }
 
-.Nvb{
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    padding-top:35px;
-    padding-bottom:15px ;
-
+.Nvb {
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0 auto;
 }
 
-.Btn:hover{
-    background-color: #6773c5;
+.Btn:hover {
+  background-color: #6675ca;
 }
 
-.Btn{
-    border-radius: 20px;
-    border-color: aliceblue;
-    width:270px; 
-    height:40px; 
-    opacity: 75%;
-    background: grey;
+.Btn {
+  opacity: 65%;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  border: 0px double #cccccc;
+  color: black;
+  text-align: center;
+  width: 270px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
 }

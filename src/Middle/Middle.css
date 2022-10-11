@@ -52,61 +52,64 @@
   margin-right: 20px;
 }
 .Btn-middle-1 {
-  border-radius: 20px;
-  border-color: aliceblue;
   position: absolute;
   top: 50%;
   right: 59%;
+  opacity: 65%;
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #000000;
+  text-align: center;
   width: 270px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 75%;
-  background: grey;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .Btn-middle-2 {
-  border-radius: 20px;
-  border-color: aliceblue;
   position: absolute;
   top: 50%;
   right: 28%;
+  opacity: 65%;
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #000000;
+  text-align: center;
   width: 270px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 75%;
-  background: grey;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .Btn-middle-3 {
-  border-radius: 20px;
-  border-color: aliceblue;
-
   position: absolute;
   top: 89%;
   right: 59%;
+  opacity: 65%;
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #000000;
+  text-align: center;
   width: 270px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 75%;
-  background: grey;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .Btn-middle-4 {
-  border-radius: 20px;
-  border-color: aliceblue;
   position: absolute;
   top: 89%;
   right: 28%;
+  opacity: 65%;
+  display: inline-block;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #000000;
+  text-align: center;
   width: 270px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 75%;
-  background: grey;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .Btn-middle-1:hover,
 .Btn-middle-2:hover,
@@ -115,13 +118,3 @@
   transform: scale(1.25);
   cursor: pointer;
 }
-
-/* .Top-div-video-1 video{
-    width: 32%;
-    border-radius:  25%;
-    margin-right: 20px;
-    position: absolute; 
-    top: 20%;
-    right: 50%;
-    opacity: 0%;
-} */

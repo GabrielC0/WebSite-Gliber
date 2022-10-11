@@ -6,8 +6,8 @@ import Logo from "./Logo-BG.png";
 export default function Navbar() {
   return (
     <div className="Header">
-      <img className="Logo" src={Logo} />
       <nav className="Nvb">
+        <img className="Logo" src={Logo} />
         <Link to={"/"}>
           <button className="Btn">Accueil</button>
         </Link>

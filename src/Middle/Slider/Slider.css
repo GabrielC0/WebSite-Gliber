@@ -1,0 +1,22 @@
+.Slider-Body {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.slideContent {
+  border-radius: 20px;
+}
+.slideContainer {
+  border: none;
+}
+.nextButton,
+.prevButton {
+  background-color: black;
+}
+.Btn-middle-1,
+.Btn-middle-2,
+.Btn-middle-3,
+.Btn-middle-4 {
+  top: 420px;
+  left: 370px;
+}
