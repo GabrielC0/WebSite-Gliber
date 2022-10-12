@@ -1,8 +1,7 @@
-* {
-  box-sizing: border-box;
+@media screen and (max-width: 900px) {
 }
 
-#page-wrap {
-  padding-bottom: 10px;
-  padding-top: 10px;
+
+* {
+  box-sizing: border-box;
 }

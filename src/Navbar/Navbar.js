@@ -7,7 +7,8 @@ import Burger from "./Menu-burger/burger";
 export default function Navbar() {
   return (
     <div className="Header">
-      {/* Navbar ordi */}
+      <Burger />
+
       <nav className="Nvb">
         <img className="Logo" src={Logo} />
         <Link to={"/"}>
@@ -26,10 +27,6 @@ export default function Navbar() {
           <button className="Btn">Contact</button>
         </Link>
       </nav>
-
-      <div className="Burger">
-        <Burger />
-      </div>
     </div>
   );
 }

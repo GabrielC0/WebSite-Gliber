@@ -1,8 +1,9 @@
-@media screen and (max-width: 1212px) {
+@media screen and (max-width: 900px) {
   .Slider-Body {
     display: none;
   }
 }
+
 
 .Slider-Body {
   width: 50%;

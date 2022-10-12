@@ -6,7 +6,6 @@ function Burger() {
   return (
     <div className="Burger" id="outer-container">
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
-      <div id="page-wrap"></div>
     </div>
   );
 }

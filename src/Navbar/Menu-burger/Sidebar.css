@@ -1,3 +1,9 @@
+@media screen and (max-width: 900px) {
+  .Burger {
+    opacity: 100%;
+  }
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -9,7 +15,7 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background:white;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -35,6 +41,7 @@
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  transition: "scaleDown";
 }
 
 /* General sidebar styles */
@@ -74,4 +81,11 @@
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-item:hover {
+  color: white;
+}
+.bm-item {
+  color: white;
 }
