@@ -2,10 +2,10 @@
   .Btn {
     display: none;
   }
-  .Nvb{
+  .Nvb {
     display: none;
   }
-  img{
+  img {
     display: none;
   }
 }
@@ -44,5 +44,5 @@
 }
 
 .Burger {
-  display: block;
+  display: none;
 }
