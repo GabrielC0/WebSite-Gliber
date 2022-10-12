@@ -1,3 +1,9 @@
+@media screen and (max-width: 1212px) {
+  .Slider-Body {
+    display: none;
+  }
+}
+
 .Slider-Body {
   width: 50%;
   margin: 0 auto;

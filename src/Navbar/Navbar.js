@@ -2,10 +2,12 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Logo from "./Logo-BG.png";
+import Burger from "./Menu-burger/burger";
 
 export default function Navbar() {
   return (
     <div className="Header">
+      {/* Navbar ordi */}
       <nav className="Nvb">
         <img className="Logo" src={Logo} />
         <Link to={"/"}>
@@ -24,6 +26,8 @@ export default function Navbar() {
           <button className="Btn">Contact</button>
         </Link>
       </nav>
+
+      <Burger />
     </div>
   );
 }

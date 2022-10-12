@@ -1,12 +1,11 @@
 @media screen and (max-width: 1212px) {
-  .Nvb {
-    flex-direction: column;
-    height: 200px;
-    margin-top: -12px;
-    background-image: url("Logo-BG.png");
+  .Btn {
+    display: none;
   }
-
-  .Logo {
+  .Nvb{
+    display: none;
+  }
+  img{
     display: none;
   }
 }
@@ -26,19 +25,24 @@
 }
 
 .Btn:hover {
-  background-color: #6675ca;
-}
-
-.Btn {
-  opacity: 65%;
+  border: 10px double #000000;
+  cursor: pointer;
+  transition: all 0.5s;
   display: inline-block;
   background-color: white;
   border-radius: 10px;
-  border: 0px double #cccccc;
   color: black;
   text-align: center;
+  background-color: rgb(49, 38, 93);
+}
+
+.Btn {
+  background-color: #6675ca;
   width: 270px;
   height: 40px;
-  transition: all 0.5s;
-  cursor: pointer;
+  opacity: 65%;
+}
+
+.Burger {
+  display: block;
 }
