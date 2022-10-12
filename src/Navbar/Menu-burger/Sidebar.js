@@ -8,7 +8,7 @@ export default (props) => {
       <a className="menu-item" href="/">
         Accueil
       </a>
-      <a className="menu-item" href="/Prestations">
+      <a className="menu-item" href="/Prestations" Link to={"/Prestations"}>
         Prestations
       </a>
       <a className="menu-item" href="/Realisations">
