@@ -27,7 +27,9 @@ export default function Navbar() {
         </Link>
       </nav>
 
-      <Burger />
+      <div className="Burger">
+        <Burger />
+      </div>
     </div>
   );
 }

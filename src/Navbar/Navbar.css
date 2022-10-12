@@ -8,6 +8,9 @@
   img {
     display: none;
   }
+  .Burger {
+    display: block;
+  }
 }
 
 .Header {
@@ -44,5 +47,5 @@
 }
 
 .Burger {
-  display: none;
+  display: block;
 }
