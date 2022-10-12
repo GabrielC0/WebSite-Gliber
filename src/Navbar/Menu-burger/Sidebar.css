@@ -15,13 +15,10 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background:white;
+  background: white;
 }
 
 /* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #a90000;
-}
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
@@ -88,4 +85,10 @@
 }
 .bm-item {
   color: white;
+}
+.menu-item-btn {
+  background-color: #373a47;
+  border: 0px;
+  color: white;
+  cursor: pointer;
 }
