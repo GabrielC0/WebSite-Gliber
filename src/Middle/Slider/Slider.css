@@ -14,7 +14,7 @@
   border-radius: 20px;
 }
 .slideContainer {
-  border: none;
+  border-color: #1e2449;
 }
 .nextButton,
 .prevButton {

@@ -1,3 +1,12 @@
+@media screen and (max-width: 900px) {
+  .Middle {
+    flex-direction: column;
+  }
+  .Middle p {
+    font-size: 2vmin;
+  }
+}
+
 img {
   width: 35%;
 }
@@ -13,11 +22,12 @@ img {
 }
 
 .Middle p {
-  width: 50%;
-  font-size: 25px;
   color: #ffffff;
   font-family: system-ui;
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: 100;
+  font-size: 3vmin;
 }
 .Galerie {
   margin: 2%;
