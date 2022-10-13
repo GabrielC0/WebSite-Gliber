@@ -10,7 +10,7 @@ export default function Navbar() {
       <Burger />
 
       <nav className="Nvb">
-        <img className="Logo" src={Logo} />
+      <img className="Logo" src={Logo} />
         <Link to={"/"}>
           <button className="Btn">Accueil</button>
         </Link>

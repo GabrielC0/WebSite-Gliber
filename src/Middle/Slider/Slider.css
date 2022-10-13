@@ -1,29 +1,37 @@
 @media screen and (max-width: 900px) {
-  .Slider-Body {
+  .Btn-middle-1,
+  .Btn-middle-2,
+  .Btn-middle-3,
+  .Btn-middle-4 {
     display: none;
   }
 }
 
-
-.Slider-Body {
-  width: 50%;
+.carousel-root {
+  width: 65%;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 35px;
 }
-.slideContent {
-  border-radius: 20px;
-}
-.slideContainer {
-  border-color: #1e2449;
-}
-.nextButton,
-.prevButton {
-  background-color: black;
-}
+
 .Btn-middle-1,
 .Btn-middle-2,
 .Btn-middle-3,
 .Btn-middle-4 {
-  top: 420px;
-  left: 370px;
+  right: 38.5%;
+  top: 90%;
+}
+.Btn-smarthP {
+  flex-direction: column;
+
+}
+.Btn-s {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-color: aliceblue;
+  width: 150px;
+  height: 40px;
+}
+.middle-content {
+  margin: 0 auto;
 }

@@ -1,6 +1,10 @@
 @media screen and (max-width: 900px) {
 }
 
+.Logo {
+  margin-left: 60%;
+  margin-top: 20px;
+}
 
 * {
   box-sizing: border-box;
