@@ -9,6 +9,8 @@ import img5 from "./IMGS/QuiSuisJe-PHOTO8.jpg";
 import img6 from "./IMGS/QuiSuisJe-PHOTO9.jpg";
 import img7 from "./IMGS/QuiSuisJe-PHOTO11.jpg";
 
+
+
 function QuiSuisJe() {
   return (
     <div className="Content">
@@ -50,6 +52,7 @@ function QuiSuisJe() {
           <img className="Galerie" src={img7} />
         </div>
       </div>
+
     </div>
   );
 }

@@ -18,6 +18,13 @@
   margin: 0 auto;
 }
 
+.Btn {
+  background-color: #6675ca;
+  width: 270px;
+  height: 40px;
+  opacity: 65%; 
+}
+
 .Btn:hover {
   border: 10px double #000000;
   cursor: pointer;
@@ -30,9 +37,3 @@
   background-color: rgb(49, 38, 93);
 }
 
-.Btn {
-  background-color: #6675ca;
-  width: 270px;
-  height: 40px;
-  opacity: 65%;
-}
