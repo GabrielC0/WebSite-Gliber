@@ -46,12 +46,6 @@ class Slider extends Component {
             <Link to={"/Realisations/Stage_IMG"}>
               <button className="Btn-s">Stage</button>
             </Link>
-
-            <button
-              onclick="topFunction()" id="myBtn"
-            >
-              scroll
-            </button>
           </div>
         </div>
       </div>
