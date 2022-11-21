@@ -7,8 +7,6 @@ import Slider from "./Slider/Slider";
 function Middle() {
   return (
     <div className="Global-middle">
-      {/* <img className="Logo-menu" src={Logo} /> */}
-
       <Slider/>
     </div>
   );

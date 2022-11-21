@@ -1,9 +1,6 @@
 @media screen and (max-width: 900px) {
-  .Btn-middle-1,
-  .Btn-middle-2,
-  .Btn-middle-3,
-  .Btn-middle-4 {
-    display: none;
+  .Carousel {
+    margin-top: 40%;
   }
 }
 
@@ -13,16 +10,8 @@
   margin-top: 35px;
 }
 
-.Btn-middle-1,
-.Btn-middle-2,
-.Btn-middle-3,
-.Btn-middle-4 {
-  right: 38.5%;
-  top: 90%;
-}
 .Btn-smarthP {
   flex-direction: column;
-
 }
 .Btn-s {
   margin-right: 20px;

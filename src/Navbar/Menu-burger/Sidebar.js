@@ -1,9 +1,9 @@
-import React from "react";
-import { slide as Menu } from "react-burger-menu";
+import { React, useState } from "react";
+import { slide as Menu, CustomIcon } from "react-burger-menu";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
-export default (props) => {
+function Burger() {
   return (
     <Menu>
       <Link to={"/"}>
@@ -23,4 +23,6 @@ export default (props) => {
       </Link>
     </Menu>
   );
-};
+}
+
+export default Burger;

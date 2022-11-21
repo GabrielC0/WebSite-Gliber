@@ -1,6 +1,7 @@
 import "./App.css";
 import Router from "./Navbar/Router";
-import React, { Component } from "react";
+import React from "react";
+
 function App() {
   return (
     <div className="App">

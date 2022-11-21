@@ -1,6 +1,5 @@
-import Navbar from "./Navbar";
 import Middle from "../Middle/Middle";
-import React, { Component } from 'react'
+import React from "react";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -19,10 +18,13 @@ import Inspection_IMG from "./Sections/Realisations/Contents_Réa/Inspection_IMG
 import PrisesDeVues_IMG from "./Sections/Realisations/Contents_Réa/PrisesDeVues_IMG";
 import Stage_IMG from "./Sections/Realisations/Contents_Réa/Stage_IMG";
 
+import Navbar from "./Navbar";
+
 function Router() {
   return (
     <div className="App">
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Middle />} />
         <Route path="/Contact" element={<Contact />} />

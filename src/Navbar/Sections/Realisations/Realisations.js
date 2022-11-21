@@ -19,7 +19,7 @@ function Realisations() {
         <Link to={"/Realisations/PrisesDeVues_IMG"}>
           <button className="Btn-Réa">Prises De Vues</button>
         </Link>
-        <Link to={"/Realisations/Inspection_IMG"}>
+        <Link to={"/Realisations/Inspection_IMG"}> 
           <button className="Btn-Réa">Inspections</button>
         </Link>
         <Link to={"/Realisations/Conseils_IMG"}>

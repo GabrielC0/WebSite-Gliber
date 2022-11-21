@@ -4,8 +4,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 
-import "./scroll";
-
 import img1 from "../Pictures/PH1.JPG";
 import img2 from "../Pictures/PH2.png";
 import img3 from "../Pictures/PH3.png";
@@ -16,7 +14,7 @@ import "./Slider.css";
 class Slider extends Component {
   render() {
     return (
-      <div>
+      <div className="Carousel">
         <Carousel autoFocus infiniteLoop autoPlay>
           <div>
             <img src={img1} />
@@ -48,6 +46,8 @@ class Slider extends Component {
             </Link>
           </div>
         </div>
+
+
       </div>
     );
   }

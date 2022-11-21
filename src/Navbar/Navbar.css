@@ -1,6 +1,6 @@
 @media screen and (max-width: 900px) {
-  .Nvb {
-    visibility: hidden;
+  nav.Nvb {
+    display: none;
   }
 }
 
@@ -22,7 +22,7 @@
   background-color: #6675ca;
   width: 270px;
   height: 40px;
-  opacity: 65%; 
+  opacity: 65%;
 }
 
 .Btn:hover {
@@ -36,4 +36,3 @@
   text-align: center;
   background-color: rgb(49, 38, 93);
 }
-
