@@ -20,7 +20,7 @@
 
 .Btn {
   background-color: #6675ca;
-  width: 270px;
+  width: 250px;
   height: 40px;
   opacity: 65%;
 }
@@ -39,5 +39,5 @@
 .Logo {
   width: 200px;
   height: 100px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
