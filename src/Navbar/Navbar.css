@@ -36,3 +36,8 @@
   text-align: center;
   background-color: rgb(49, 38, 93);
 }
+.Logo {
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+}
