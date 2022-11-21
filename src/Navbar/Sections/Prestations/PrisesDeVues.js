@@ -19,7 +19,7 @@ function PrisesDeVues(){
 
                 <div className="Txt">
 
-                    <h2>
+                    <p>
                         Chez GLIBER nous vous aroposons de capturer tout vos moments importants professionel ou personel : 
                         (Suivis de chantiers, photos de mariage, vue du ciel de tout vos biens immobilier...)
                 
@@ -35,7 +35,7 @@ function PrisesDeVues(){
                         Images hors du commun, angles inédits.
                         5) Le Respect de l'environnement :
                         Silencieux et sans émission de CO2.
-                    </h2>
+                    </p>
 
                 </div>
             </div>

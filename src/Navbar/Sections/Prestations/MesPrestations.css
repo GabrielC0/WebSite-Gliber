@@ -26,9 +26,13 @@
     margin-left: 35px;
   }
 
-  .Txt {
+  .Txt p {
+    font-size: 15px;
+    color: #000000;
+    margin-top: 55px;
     margin: 20px;
     text-align: left;
+    font-family: system-ui;
   }
 }
 
@@ -80,13 +84,6 @@
 
 .Btn-nd4 {
   margin-right: 40px;
-}
-
-.Txt {
-  font-size: 10px;
-  color: #000000;
-  margin-top: 55px;
-  font-family: system-ui;
 }
 
 .Img {

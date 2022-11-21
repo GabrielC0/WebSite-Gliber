@@ -16,13 +16,9 @@
 }
 
 .Txt {
-  font-family: Impact, Charcoal, sans-serif;
-  font-size: 25px;
   letter-spacing: 2px;
   word-spacing: 2px;
   color: #000000;
-  font-weight: 400;
-  text-decoration: none solid rgb(68, 68, 68);
   font-style: normal;
   font-variant: normal;
 }
@@ -55,7 +51,6 @@ body {
   background: #1e2449;
 }
 h1 {
-  font-weight: 100;
   color: white;
   text-align: center;
   padding-bottom: 10px;

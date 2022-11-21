@@ -15,14 +15,14 @@ function Conseils(){
 
                 <div className="Txt">
                     <h2>Quel type de drone recherchez vous ?</h2>
-                    <h2>
+                    <p>
                         Acheter un drone demande beaucoup de réflexions.  
                         Chez GLIBER, nous vous proposons nos services afin de trouver le drone dont 
                         avez besoin, que ce soit pour les professionnels ou les particuliers.
                         Commencez par nous contacter en nous donnant toutes les informations sur vos critéres d'achats
                         et nous reviendrons dans les plus braves delais avec une ou plusieurs propositions d'achat de 
                         drone au juste prix. De plus nous faisons toutes les démarches administratives à votre place.
-                    </h2>
+                    </p>
                 </div>
             </div>
 

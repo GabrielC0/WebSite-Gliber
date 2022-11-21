@@ -16,7 +16,7 @@ function Inspections(){
 
             <div className="Txt">
                 <h2>À quoi sert l'inspection de toiture par drone ?</h2>
-                <h2>Les aéronefs télépilotés sont de plus en plus sollicités 
+                <p>Les aéronefs télépilotés sont de plus en plus sollicités 
                     pour accomplir des travaux autrefois jugés trop risqués voire impossibles.
                     L’inspection par drone est idéale pour la reconnaissance de zones difficilement accessibles, 
                     notamment la détection de pathologie (infiltration, casse, affaissement…) des éléments 
@@ -26,7 +26,7 @@ function Inspections(){
                     Nous inspectons également diverses installations techniques, 
                     telle que les panneaux photovoltaïques.
 
-                </h2>
+                </p>
             </div>
         </div>
 
