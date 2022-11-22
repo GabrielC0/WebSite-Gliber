@@ -8,23 +8,20 @@ import img4 from "../Pictures/PH4.jpg";
 import img5 from "../Pictures/PH5.JPG";
 import img6 from "../Pictures/PH6.jpg";
 
-function PrisesDeVues_IMG (){
-    return(
-        <div className="Global_IMG">
+function PrisesDeVues_IMG() {
+  return (
+    <div className="Global_IMG">
+      <h1>PrisesDeVues</h1>
 
-            <h1>PrisesDeVues</h1>
-
-            <div className="IMG">
-                <img src={img1}/>  
-                <img src={img2}/>  
-                <img src={img3}/>  
-                <img src={img4}/>  
-                <img src={img5}/>  
-                <img src={img6}/>  
-            </div>
-
-        </div>
-    );
-
+      <div className="IMG">
+        <img src={img1} />
+        <img src={img2} />
+        <img src={img3} />
+        <img src={img4} />
+        <img src={img5} />
+        <img src={img6} />
+      </div>
+    </div>
+  );
 }
 export default PrisesDeVues_IMG;

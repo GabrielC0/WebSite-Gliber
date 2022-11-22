@@ -1,13 +1,18 @@
-@media screen and (max-width: 1212px) {
+@media screen and (max-width: 934px) {
   .IMG {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    align-items: center;
   }
-  .IMG img {
-    margin-top: 50px;
-    width: 400px;
-    height: 200px;
-    border-radius: 25px;
-  }
+}
+
+.IMG img {
+  width: 340px;
+  height: 200px;
+  margin-top: 30px;
+  /* margin-left: 25px; */
+  border-radius: 25px;
+}
+
+.IMG {
 }
