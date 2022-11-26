@@ -2,18 +2,6 @@
   .Contents-Img img {
     display: none;
   }
-  .Nvb-nd .Btn-nd1,
-  .Nvb-nd .Btn-nd2,
-  .Nvb-nd .Btn-nd3 {
-    width: 75px;
-    height: 75px;
-    margin-right: 20px;
-  }
-  .Nvb-nd .Btn-nd4 {
-    width: 75px;
-    height: 75px;
-    margin-left: -15px;
-  }
 
   .Desc {
     display: flex;
@@ -46,7 +34,6 @@
   height: 110px;
 }
 
-
 .Btn {
   border-radius: 20px;
   border-color: aliceblue;
@@ -54,30 +41,11 @@
   height: 40px;
 }
 
-.Btn-nd1,
-.Btn-nd2,
-.Btn-nd3,
-.Btn-nd4 {
-  border-radius: 20px;
-  border-color: aliceblue;
-  width: 150px;
-  height: 40px;
-}
-
-.Btn-nd2,
-.Btn-nd3 {
-  margin-left: -15px;
-}
-
-.Btn-nd4 {
-  margin-right: 40px;
-}
-
 .Img {
   border-radius: 50px;
   width: 22%;
   margin-right: 50px;
 }
-.Global_Realisations{
+.Global_Realisations {
   width: screen;
 }

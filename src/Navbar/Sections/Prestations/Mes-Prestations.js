@@ -26,16 +26,16 @@ function MesPrestations() {
 
         <nav className="Nvb-nd">
           <Link to={"/Prestations/PrisesDeVues"}>
-            <button className="Btn-nd1">Prises de vues</button>
+            <button className="Btn-C">Prises de vues</button>
           </Link>
           <Link to={"/Prestations/Inspections"}>
-            <button className="Btn-nd2">Inspections</button>
+            <button className="Btn-C">Inspections</button>
           </Link>
           <Link to={"/Prestations/Conseils"}>
-            <button className="Btn-nd3">Guide d'achat de Drone</button>
+            <button className="Btn-C">Guide d'achat de Drone</button>
           </Link>
           <Link to={"/Prestations/Stage"}>
-            <button className="Btn-nd4">Formation</button>
+            <button className="Btn-C">Formation</button>
           </Link>
         </nav>
       </div>

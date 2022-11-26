@@ -7,7 +7,7 @@ import Video1 from "./Videos/VIDEO_JET_1080P.mp4";
 
 function Realisations() {
   return (
-    <div className="Global_Realisations">
+    <div className="Nd-Menu">
       <h1>Mes réalisations</h1>
 
       <div className="content">
@@ -17,16 +17,16 @@ function Realisations() {
 
       <nav className="Nvb-nd">
         <Link to={"/Realisations/PrisesDeVues_IMG"}>
-          <button className="Btn-Réa">Prises De Vues</button>
+          <button className="Btn-C">Prises De Vues</button>
         </Link>
         <Link to={"/Realisations/Inspection_IMG"}> 
-          <button className="Btn-Réa">Inspections</button>
+          <button className="Btn-C">Inspections</button>
         </Link>
         <Link to={"/Realisations/Conseils_IMG"}>
-          <button className="Btn-Réa">Guide d'achat de Drone</button>
+          <button className="Btn-C">Guide d'achat de Drone</button>
         </Link>
         <Link to={"/Realisations/Stage_IMG"}>
-          <button className="Btn-Réa">Stage</button>
+          <button className="Btn-C">Stage</button>
         </Link>
       </nav>
 
